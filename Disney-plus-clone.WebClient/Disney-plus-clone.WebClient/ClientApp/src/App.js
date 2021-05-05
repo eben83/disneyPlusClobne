@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Layout } from './components/Layout';
+
+import './custom.xs.css'
+import './custom.sm.css'
+import './custom.md.css'
 
 
 export default class App extends Component {

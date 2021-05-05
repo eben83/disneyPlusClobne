@@ -4,18 +4,8 @@
     <projectFile>Disney-plus-clone.WebClient/Disney-plus-clone.WebClient.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96707f0f-dfe2-4d86-8466-40ef83d858c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package.json" afterDir="false" />
+    <list default="true" id="96707f0f-dfe2-4d86-8466-40ef83d858c4" name="Default Changelist" comment="added custom style sheets">
       <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/FetchData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/NavMenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/NavMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/custom.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +32,9 @@
     </changedPaths>
   </component>
   <component name="ProjectId" id="1s6wUPQMDvJ0EuiqbNyg1XuimSR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -122,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620206997457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added custom style sheets">
+      <created>1620209514024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620209514024</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,11 +139,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="project update" />
-    <option name="LAST_COMMIT_MESSAGE" value="project update" />
+    <MESSAGE value="added custom style sheets" />
+    <option name="LAST_COMMIT_MESSAGE" value="added custom style sheets" />
   </component>
 </project>
