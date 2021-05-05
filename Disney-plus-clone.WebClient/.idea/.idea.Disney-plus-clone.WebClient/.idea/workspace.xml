@@ -4,7 +4,19 @@
     <projectFile>Disney-plus-clone.WebClient/Disney-plus-clone.WebClient.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96707f0f-dfe2-4d86-8466-40ef83d858c4" name="Default Changelist" comment="" />
+    <list default="true" id="96707f0f-dfe2-4d86-8466-40ef83d858c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/FetchData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/NavMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/custom.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +33,14 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package.json" />
+      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/Layout.js" />
+      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/NavMenu.js" />
+      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="1s6wUPQMDvJ0EuiqbNyg1XuimSR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,6 +51,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.space" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -75,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620206361458</updated>
-      <workItem from="1620206365089" duration="588000" />
+      <workItem from="1620206365089" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1620206424697</created>
@@ -91,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620206564763</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project update">
+      <created>1620206997457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620206997457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="project update" />
+    <option name="LAST_COMMIT_MESSAGE" value="project update" />
   </component>
 </project>
