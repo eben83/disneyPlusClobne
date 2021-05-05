@@ -233,6 +233,7 @@ _Pvt_Extensions
 
 #JetBrains Rider ./idea
 /.idea/*
+\.idea
 /Presentation/Nop.Web/App_Data/DataProtectionKeys/*.xml
 
 #ignore css files if you use a preprocessor like sass
