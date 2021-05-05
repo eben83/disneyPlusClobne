@@ -230,3 +230,14 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+#JetBrains Rider ./idea
+/.idea/*
+/Presentation/Nop.Web/App_Data/DataProtectionKeys/*.xml
+
+#ignore css files if you use a preprocessor like sass
+*.css
+*.orig
+/PMPIT/node_modules/node-sass/src/.DS_Store
+
+/node_modules
