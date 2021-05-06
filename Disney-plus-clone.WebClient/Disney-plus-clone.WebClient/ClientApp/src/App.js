@@ -1,16 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Login from "./components/login/login";
+import Header from "./components/header/header";
 
 import './custom.xs.css'
 import './custom.sm.css'
 import './custom.md.css'
 
 
-export default class App extends Component {
-  static displayName = App.name;
-
-  render () {
-    return (
-     <h1>Disney Plus</h1>
-    );
-  }
+const App = () => {
+  return (
+      <div className='app'>
+        <Router>
+          <Switch>
+            <Route exact path='/'>
+              <Login/>
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+  )
 }
+export default App;
