@@ -241,4 +241,4 @@ _Pvt_Extensions
 *.orig
 /PMPIT/node_modules/node-sass/src/.DS_Store
 
-/node_modules
+\node_modules
