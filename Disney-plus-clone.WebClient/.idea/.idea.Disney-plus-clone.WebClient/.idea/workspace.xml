@@ -7,12 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="nav component removed">
+    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="redux and redux toolkit installed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +35,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -164,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620286456682</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="redux and redux toolkit installed">
+      <created>1620317513514</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620317513514</updated>
+    </task>
+    <task id="LOCAL-00009" summary="redux and redux toolkit installed">
+      <created>1620317569760</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620317569760</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +201,11 @@
     <MESSAGE value="font family added" />
     <MESSAGE value="login page added" />
     <MESSAGE value="nav component removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav component removed" />
+    <MESSAGE value="redux and redux toolkit installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux and redux toolkit installed" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
