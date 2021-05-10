@@ -1,8 +1,8 @@
-import React, {} from 'react';
+import React, {useEffect} from 'react';
 import styled from "styled-components";
 import {selectUserName, selectUserEmail, selectUserPhoto, setUserLoginDetails} from "../../features/user/userSlice";
 import {useDispatch, useSelector} from "react-redux";
-import {useHistory} from "react-router";
+import {useHistory} from "react-router-dom";
 import {auth, provider} from "../../firebase";
 
 const Header = (props) => {
@@ -11,6 +11,20 @@ const Header = (props) => {
     const history = useHistory();
     const userName = useSelector(selectUserName);
     const userPhoto = useSelector(selectUserPhoto);
+    
+    useEffect(()=> {
+        auth.onAuthStateChanged(async (user)=> {
+            if (user) {
+                setUser(user);
+                history.push("/home")
+            }
+        })
+    }, [userName]); 
+    
+    /*
+    [userName] known as dependency- so the above hook will only fire
+    once the userName dependency changes
+     */
     
     const handleAuth = () => {
         auth.signInWithPopup(provider)
