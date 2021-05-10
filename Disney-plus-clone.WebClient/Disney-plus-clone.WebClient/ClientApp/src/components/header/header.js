@@ -1,18 +1,33 @@
 import React, {} from 'react';
 import styled from "styled-components";
-import { auth, provider } from '../../firebase';
-import {result} from "lodash";
+import {selectUserName, selectUserEmail, selectUserPhoto, setUserLoginDetails} from "../../features/user/userSlice";
+import {useDispatch, useSelector} from "react-redux";
+import {useHistory} from "react-router";
+import {auth, provider} from "../../firebase";
 
 const Header = (props) => {
+    
+    const dispatch = useDispatch();
+    const history = useHistory();
+    const userName = useSelector(selectUserName);
+    const userPhoto = useSelector(selectUserPhoto);
     
     const handleAuth = () => {
         auth.signInWithPopup(provider)
             .then((result) => {
-                console.log(result)
+                setUser(result.user)
             }).catch((error) => {
                 alert(error.message)
         })
         ;
+    }
+    
+    const setUser = (user) => {
+        dispatch(setUserLoginDetails({
+            name: user.displayName,
+            email: user.email,
+            photo: user.photoURL,
+        }))
     }
     return (
         <>
@@ -20,37 +35,47 @@ const Header = (props) => {
                 <Logo>
                     <img src="/images/logo.svg" alt='disney logo'/>
                 </Logo>
-                <NavMenu>
-                    <a href='/home'>
-                        <img src='/images/home-icon.svg' alt='Home Icon'/>
-                        <span>HOME</span>
-                    </a>
-                    <a>
-                        <img src='/images/search-icon.svg' alt='Search Icon'/>
-                        <span>SEARCH</span>
-                    </a>
-                    <a>
-                        <img src='/images/watchlist-icon.svg' alt='Watchlist Icon'/>
-                        <span>WATCHLIST</span>
-                    </a>
-                    <a>
-                        <img src='/images/original-icon.svg' alt='Original Icon'/>
-                        <span>ORIGINALS</span>
-                    </a>
-                    <a>
-                        <img src='/images/movie-icon.svg' alt='Movies Icon'/>
-                        <span>MOVIES</span>
-                    </a>
-                    <a>
-                        <img src='/images/series-icon.svg' alt='Series Icon'/>
-                        <span>SERIES</span>
-                    </a>
-                </NavMenu>
-                <Login onClick={handleAuth}>Login</Login>
+                {/*
+                    THE BELOW- if there is no user or user not logged in show the "Login" button, ELSE, 
+                    if there is a user or user logged in show the next lot 
+                */}
+                {!userName ? 
+                    <Login onClick={handleAuth}>Login</Login> : 
+                    <>
+                        <NavMenu>
+                            <a href='/home'>
+                                <img src='/images/home-icon.svg' alt='Home Icon'/>
+                                <span>HOME</span>
+                            </a>
+                            <a>
+                                <img src='/images/search-icon.svg' alt='Search Icon'/>
+                                <span>SEARCH</span>
+                            </a>
+                            <a>
+                                <img src='/images/watchlist-icon.svg' alt='Watchlist Icon'/>
+                                <span>WATCHLIST</span>
+                            </a>
+                            <a>
+                                <img src='/images/original-icon.svg' alt='Original Icon'/>
+                                <span>ORIGINALS</span>
+                            </a>
+                            <a>
+                                <img src='/images/movie-icon.svg' alt='Movies Icon'/>
+                                <span>MOVIES</span>
+                            </a>
+                            <a>
+                                <img src='/images/series-icon.svg' alt='Series Icon'/>
+                                <span>SERIES</span>
+                            </a>
+                        </NavMenu>
+                        <UserImg src={userPhoto} alt={userName}/>
+                    </>
+                    }
             </Nav>
         </>
     );
 }
+
 const Nav = styled.nav`
     position: fixed;
     top: 0;
@@ -167,4 +192,9 @@ const Login = styled.a`
         color: #000 !important;
     }
 `;
+
+const UserImg = styled.img`
+    height: 100%;
+`;
+
 export default Header;
