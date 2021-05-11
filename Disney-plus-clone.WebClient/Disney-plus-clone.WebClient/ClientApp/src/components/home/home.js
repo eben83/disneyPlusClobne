@@ -1,11 +1,12 @@
 ﻿import React, {} from 'react';
 import styled from "styled-components";
+import ImgSlider from "../imgSlider/imgSlider";
 
 const Home = (props) => {
     return (
         <>
             <Container>
-                <h2>Home</h2>
+                <ImgSlider />
             </Container>
         </>
     );

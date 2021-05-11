@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added home page and home background image" />
+    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added slick slider, slick-carousel, updated &amp; adding slider images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +49,7 @@
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" />
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/header/header.js" />
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/home/home.js" />
+      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/imgSlider/imgSlider.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1s9Mnut3krQCuSFd9AN6HAwbQF5" />
@@ -131,7 +132,8 @@
       <workItem from="1620280543733" duration="316000" />
       <workItem from="1620280949607" duration="15904000" />
       <workItem from="1620374808012" duration="3349000" />
-      <workItem from="1620625551795" duration="18780000" />
+      <workItem from="1620625551795" duration="20462000" />
+      <workItem from="1620708979565" duration="6140000" />
     </task>
     <task id="LOCAL-00003" summary="font family added">
       <created>1620283732759</created>
@@ -252,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620656507621</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added home page and home background image">
+      <created>1620656796371</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620656796371</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added slick slider, slick-carousel, updated &amp; adding slider images">
+      <created>1620722041466</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620722041466</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +300,8 @@
     <MESSAGE value="added login functionality and redirect user to home" />
     <MESSAGE value="allow user to sign in and sign out-" />
     <MESSAGE value="added home page and home background image" />
-    <option name="LAST_COMMIT_MESSAGE" value="added home page and home background image" />
+    <MESSAGE value="added slick slider, slick-carousel, updated &amp; adding slider images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added slick slider, slick-carousel, updated &amp; adding slider images" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
