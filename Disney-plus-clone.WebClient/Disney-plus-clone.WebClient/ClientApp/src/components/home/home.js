@@ -2,6 +2,7 @@
 import styled from "styled-components";
 import ImgSlider from "../imgSlider/imgSlider";
 import Viewers from "../viewers/viewers";
+import Recommends from "../recommends/recommends";
 
 const Home = (props) => {
     return (
@@ -9,6 +10,7 @@ const Home = (props) => {
             <Container>
                 <ImgSlider />
                 <Viewers />
+                <Recommends />
             </Container>
         </>
     );

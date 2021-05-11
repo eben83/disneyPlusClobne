@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added and updated viewer image boxes.">
+    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added videos to viewer boxes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/viewers/viewers.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/viewers/viewers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/home/home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,10 @@
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/features/user/userSlice.js" />
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" />
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/header/header.js" />
-      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/home/home.js" />
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/imgSlider/imgSlider.js" />
       <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/viewers/viewers.js" />
+      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/home/home.js" />
+      <option value="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/recommends/recommends.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1s9Mnut3krQCuSFd9AN6HAwbQF5" />
@@ -137,7 +138,7 @@
       <workItem from="1620280949607" duration="15904000" />
       <workItem from="1620374808012" duration="3349000" />
       <workItem from="1620625551795" duration="20462000" />
-      <workItem from="1620708979565" duration="11794000" />
+      <workItem from="1620708979565" duration="17186000" />
     </task>
     <task id="LOCAL-00003" summary="font family added">
       <created>1620283732759</created>
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620728516181</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added videos to viewer boxes">
+      <created>1620729601660</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1620729601660</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +335,8 @@
     <MESSAGE value="added home page and home background image" />
     <MESSAGE value="added slick slider, slick-carousel, updated &amp; adding slider images" />
     <MESSAGE value="added and updated viewer image boxes." />
-    <option name="LAST_COMMIT_MESSAGE" value="added and updated viewer image boxes." />
+    <MESSAGE value="added videos to viewer boxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added videos to viewer boxes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
