@@ -1,24 +1,68 @@
-import React, {} from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from "styled-components";
+import { useParams } from 'react-router-dom';
+import db from '../../firebase'
+
 
 const Detail = (props) => {
+    
+    const { id } = useParams();
+    const [ detailData, setDetailData ] = useState({});
+    
+    //get the data from db
+    useEffect(() => {
+        db.collection('movies').doc(id)
+            .get()
+            .then((doc) => {
+                if (doc.exists) {
+                    setDetailData(doc.data());
+                } else {
+                    console.log('no such file found')
+                }
+            }).catch((error) => {
+            console.log('Error getting document:', error)
+        })
+    }, [id])
+    
     return (
         <>
             <Container>
                 <Background>
-                    <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D53D1F5D357587A8D09067AB09FFC7096F837CBAAE02BDC3C0E75814471A1E36/scale?width=1440&aspectRatio=1.78&format=jpeg'
-                         alt='img'/>
+                    <img src={detailData.backgroundImg}
+                         alt={detailData.title}/>
                 </Background>
                 
                 <ImageTitle>
-                    <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/47A6FB38D95B3A5EF5583C9EED0B698ED2992CBA4AC7222DD3269DC92DFA03A6/scale?width=1440&aspectRatio=1.78'
-                         alt='image'/>
+                    <img src={detailData.titleImg}
+                         alt={detailData.title}/>
                 </ImageTitle>
                 
                 <ContentMeta>
                     <Controls>
-                        controls
+                        <Player>
+                            <img src='/images/play-icon-black.png' alt='black play button' />
+                            <span>Play</span>
+                        </Player>
+                        <Trailer>
+                            <img src='/images/play-icon-white.png' alt='white trailer button' />
+                            <span>Trailer</span>
+                        </Trailer>
+                        <AddList>
+                            <span />
+                            <span />
+                        </AddList>
+                        <GroupWatch>
+                            <div>
+                                <img src='/images/group-icon.png' alt='group watch' />
+                            </div>
+                        </GroupWatch>
                     </Controls>
+                    <SubTitle>
+                        {detailData.subTitle}
+                    </SubTitle>
+                    <Description>
+                        {detailData.description}
+                    </Description>
                 </ContentMeta>
             </Container>
         </>
@@ -79,6 +123,123 @@ const Controls = styled.div`
     flex-flow: row nowrap;
     margin: 24px 0;
     min-height: 56px;
+`;
+
+const Player = styled.button`
+    font-size: 15px;
+    margin:0 22px 0 0;
+    padding: 0 24px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(249, 249, 249);
+    border: none;
+    color: rgb(0, 0, 0);
+    
+    img {
+        width: 32px;
+    }
+    
+    &:hover {
+        background: rgb(198, 198, 198);
+    }
+    
+    @media (max-width: 768px) {
+        height: 45px;
+        padding: 0 12px;
+        font-size: 12px;
+        margin: 0 10px 0 0;
+        
+        img {
+            width: 25px;
+        }
+    }
+`;
+
+//this inherits from player styling
+const Trailer = styled(Player)`
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+`;
+
+const AddList = styled.div`
+    margin-right: 16px;
+    height: 54px;
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    
+    span {
+        background-color: rgb(249, 249, 249);
+        display: inline-block;
+        
+        &:first-child {
+            height: 2px;
+            transform: translate(1px, 0) rotate(0deg);
+            width: 16px;
+        }
+        
+        &:nth-child(2) {
+            height: 16px;
+            transform: translateX(-8px) rotate(0deg);
+            width: 2px;
+        }
+    }
+`;
+
+const GroupWatch = styled.div`
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: white;
+    
+    div {
+        height: 50px;
+        width: 50px;
+        background: rgb(0, 0, 0);
+        border-radius: 50%;
+        
+        img {
+            width: 100%;
+        }
+    }
+`;
+
+const SubTitle = styled.div`
+    color: rgb(249, 249, 249);
+     font-size: 15px;
+     min-height: 20px;
+     
+     @media(max-width: 768px) {
+        font-size: 12px;
+     }
+`;
+
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    padding: 16px 0;
+    color: rgb(249, 249, 249);
+    
+    @media(max-width: 768px) {
+        font-size: 14px;
+    }
 `;
 
 export default Detail;
