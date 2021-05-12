@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="get movie details from firebase- finished details page layout." />
+    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="get movie details from firebase- finished details page layout.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +144,7 @@
       <workItem from="1620374808012" duration="3349000" />
       <workItem from="1620625551795" duration="20462000" />
       <workItem from="1620708979565" duration="19588000" />
-      <workItem from="1620799983778" duration="20631000" />
+      <workItem from="1620799983778" duration="21235000" />
     </task>
     <task id="LOCAL-00003" summary="font family added">
       <created>1620283732759</created>
@@ -347,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620830630472</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="get movie details from firebase- finished details page layout.">
+      <created>1620830904494</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1620830904494</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
