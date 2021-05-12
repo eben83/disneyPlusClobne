@@ -1,18 +1,15 @@
 ﻿import React, {} from 'react';
 import Tiles from "../titles/titles";
 import styled from "styled-components";
+import { selectTrending } from "../../features/movie/movieSlice";
 
 const Trending = (props) => {
+    
     return (
         <>
             <Container>
                 <h4>Trending</h4>
-                <Tiles
-                    image1='/images/viewers-disney.png'
-                    image2='/images/viewers-disney.png'
-                    image3='/images/viewers-disney.png'
-                    image4='/images/viewers-disney.png'
-                />
+                    <Tiles selector={selectTrending} />
             </Container>
         </>
     );

@@ -1,31 +1,26 @@
 ﻿import React, {} from 'react';
 import {Link} from "react-router-dom";
 import styled from "styled-components";
+import { useSelector } from "react-redux";
 
 const Tiles = (props) => {
+    
+    const movies = useSelector(props.selector)
     return (
         <>
             <Content>
-                <Wrap>
-                    <Link to='/'>
-                        <img src={props.image1} alt='image' />
-                    </Link>
-                </Wrap>
-                <Wrap>
-                    <Link to='/'>
-                        <img src={props.image2} alt='image' />
-                    </Link>
-                </Wrap>
-                <Wrap>
-                    <Link to='/'>
-                        <img src={props.image3} alt='image' />
-                    </Link>
-                </Wrap>
-                <Wrap>
-                    <Link to='/'>
-                        <img src={props.image4} alt='image' />
-                    </Link>
-                </Wrap>
+                {/*
+                below line, if there are movies- loop (map) through all
+                the movies
+                */}
+                {movies && movies.map((movie, key) => (
+                    <Wrap key={key}>
+                        {movie.id}
+                        <Link to={`/detail/` + movie.id}>
+                            <img src={movie.cardImg} alt={movie.title} />
+                        </Link>
+                    </Wrap>
+                ))}
             </Content>
         </>
     );
