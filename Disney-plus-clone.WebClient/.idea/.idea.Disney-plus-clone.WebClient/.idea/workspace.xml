@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added data to firebase, updated movie reducer (store) &amp; movieSlice, added loop to access data in categories">
+    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added details page with background image">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Disney-plus-clone.WebClient/ClientApp/src/components/detail/detail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,7 @@
       <workItem from="1620374808012" duration="3349000" />
       <workItem from="1620625551795" duration="20462000" />
       <workItem from="1620708979565" duration="19588000" />
-      <workItem from="1620799983778" duration="14648000" />
+      <workItem from="1620799983778" duration="15368000" />
     </task>
     <task id="LOCAL-00003" summary="font family added">
       <created>1620283732759</created>
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620816040722</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added details page with background image">
+      <created>1620824205242</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1620824205242</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +374,8 @@
     <MESSAGE value="added recommended titles (no images)" />
     <MESSAGE value="added redux state for getting movies" />
     <MESSAGE value="added data to firebase, updated movie reducer (store) &amp; movieSlice, added loop to access data in categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="added data to firebase, updated movie reducer (store) &amp; movieSlice, added loop to access data in categories" />
+    <MESSAGE value="added details page with background image" />
+    <option name="LAST_COMMIT_MESSAGE" value="added details page with background image" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
