@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added details page with background image" />
+    <list default="true" id="c33e1386-cd0e-41a8-96db-e64bca0fabb0" name="Default Changelist" comment="added solution folder with original videos and images">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Disney-plus-clone.WebClient/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +145,7 @@
       <workItem from="1620625551795" duration="20462000" />
       <workItem from="1620708979565" duration="19588000" />
       <workItem from="1620799983778" duration="15368000" />
+      <workItem from="1620971475331" duration="755000" />
     </task>
     <task id="LOCAL-00003" summary="font family added">
       <created>1620283732759</created>
@@ -333,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620824205242</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added solution folder with original videos and images">
+      <created>1620832528901</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1620832528901</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +382,8 @@
     <MESSAGE value="added redux state for getting movies" />
     <MESSAGE value="added data to firebase, updated movie reducer (store) &amp; movieSlice, added loop to access data in categories" />
     <MESSAGE value="added details page with background image" />
-    <option name="LAST_COMMIT_MESSAGE" value="added details page with background image" />
+    <MESSAGE value="added solution folder with original videos and images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added solution folder with original videos and images" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
